@@ -21,11 +21,13 @@ export default {
         "cream-dark": "#F0E8D8",
       },
       fontFamily: {
-        serif: ['"Noto Serif SC"', "serif"],
+        serif: ['"Songti SC"', '"Noto Serif SC"', '"STSong"', '"SimSun"', "serif"],
         sans: [
           "-apple-system",
           "BlinkMacSystemFont",
-          '"Segoe UI"',
+          '"PingFang SC"',
+          '"Hiragino Sans GB"',
+          '"Microsoft YaHei"',
           '"Noto Sans"',
           "Helvetica",
           "Arial",
