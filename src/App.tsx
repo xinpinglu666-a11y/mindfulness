@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "@/pages/HomePage";
 import BreathingPage from "@/pages/BreathingPage";
 import WalkingPage from "@/pages/WalkingPage";
