@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-cream text-earth font-sans antialiased;
+  }
+
+  ::selection {
+    @apply bg-forest/20;
+  }
+}
+
+@layer components {
+  .page-container {
+    @apply min-h-screen max-w-[480px] mx-auto px-4 pb-8;
+  }
+
+  .card {
+    @apply bg-white/80 backdrop-blur-sm rounded-2xl shadow-sm border border-warm/20;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
